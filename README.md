@@ -1,8 +1,10 @@
 # TDD With React
 
+## 1. Introduction to Test-Driven Development
+
 TDD is a programming paradigm where tests are written to drive the development of the application.
 
-It is main aimed at writing clean code that works.
+It is mainly aimed at writing clean code that works.
 
 ## The Red-Green-Refactor Principle
 
@@ -54,3 +56,13 @@ can be interpreted by code and executed behind the scenes.
 ## Prerequisites of TDD
 
 One major prerequisite for a developer who is getting into TDD is the ability to detect code smells and how to refactor them into a good design.
+
+
+## 2. Getting Started with Jest.
+
+Jest is a javascript testing framework from Facebook and is mainly used for writing Unit tests while allowing developers to write reliable and fast running tests.
+
+### Setting up environment for Jest.
+
+1. Install NodeJS  `npm install node`
+2. Install and Configure Jest `npm install jest --save-dev`. You can also install Jest globally using: `npm install jest -g`
