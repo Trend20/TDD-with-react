@@ -70,3 +70,16 @@ Jest is a javascript testing framework from Facebook and is mainly used for writ
 After creating a React project, initialize Jest to create the jest.config.js file which highlights some of the  most important configurations using `npx jest --init`
 
 To run jest tests, you can either use `npx jest` or `npm test` on your terminal.
+
+### Basic Concepts of Jest
+We use **describe** to define a test block.
+
+#### Example
+
+`describe('calculator', () => {
+    it('adds 2 and 3 to get 5', () =>{} )
+    it('subtract 2 from 3 to get 1', () =>{} )
+    it('divide 6 by 3 to get 2', () =>{} )
+    it('multiply 2 by 3 to get 6', () =>{} )
+)`
+
