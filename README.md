@@ -68,3 +68,5 @@ Jest is a javascript testing framework from Facebook and is mainly used for writ
 2. Install and Configure Jest `npm install jest --save-dev`. You can also install Jest globally using: `npm install jest -g`
 
 After creating a React project, initialize Jest to create the jest.config.js file which highlights some of the  most important configurations using `npx jest --init`
+
+To run jest tests, you can either use `npx jest` or `npm test` on your terminal.
